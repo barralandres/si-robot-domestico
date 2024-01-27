@@ -1,0 +1,17 @@
+MAS domestic_robot {
+    environment: HouseEnv(gui) // use "nogui" as parameter to not show the GUI
+    agents: rmayordomo;
+            rlimpiador;
+            rbasurero;
+            rpedidos;
+            owner1 owner.asl [beliefs="dinero(50), pos(couch, 10, 10)"];
+            owner2 owner.asl [beliefs="pos(couch, 6, 10)"];
+            supermarket1 supermarket.asl 
+                [beliefs= "price(beer, estrella, 8),price(beer, mahou, 5),price(comida, tortilla, 5),price(comida, empanada, 4)"];
+            supermarket2 supermarket.asl 
+                [beliefs= "price(beer, estrella, 5),price(beer, mahou, 10),price(comida, tortilla, 3),price(comida, empanada, 6)"];
+			lavavajillas;
+            proveedor;
+}
+
+
