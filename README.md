@@ -83,7 +83,8 @@ mayordomo puede pedirle al robot basurero que vacíe el cubo de basura.
 El robot mayordomo al tener notificación de la entrega de los productos por parte del
 supermercado avisará al robot de pedidos, que tiene objetivo de reponer el producto, para
 que reponga los productos en el frigorífico. Al terminar avisará al robot mayordomo.
-supermarket
+
+### supermarket
 
 Cuando el robot percibe que hay pocas existencias de cerveza (evitando que estas
 lleguen a cero) solicita al supermercado la entrega del producto demandado. El
